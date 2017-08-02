@@ -1,0 +1,90 @@
+.login-container {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #D6E9FE;
+	height: 81.5%;
+}
+
+.login-box {
+	display: flex;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	height: 300px;
+	width: 300px;
+	background-color: white;
+	justify-content: center;
+}
+
+.create-acc-box {
+	height: 150px;
+}
+
+#login-text {
+	font-size: 50px;
+}
+
+#small-text {
+	font-size: 18px;
+}
+
+#login-img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightgrey;
+	margin-bottom: 10px;
+}
+
+#login-btn-img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+#cart-btn {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	width: 90px;
+	height: 35px;
+	background-color: dodgerblue;
+}
+
+#input-bar {
+	width: 250px;
+	height: 30px;
+}
+
+.submit-btn {
+	float: right;
+	margin: 15px 5px 0 0;
+	width: 90px;
+	height: 35px;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	background-color: dodgerblue;
+	color: white;
+}
+
+.delete-btn {
+	float: right;
+	margin: 15px 5px 0 0;
+	width: 90px;
+	height: 35px;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #F44621;
+	color: white;
+}
+
+#padding {
+	margin-top: 20px;
+}
+
+.float-right-pad {
+	margin-right: 5px;
+	float: right;
+}

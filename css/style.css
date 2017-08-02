@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arvo', serif;
+}
+
+table {
+	width: 100%;
+	background-color: #D6E9FE;
+}
+
+td {
+	text-align: center;
+	padding: 25px;
+}
+
+.company {
+	float: left;
+	font-size: 50px;
+	font-family: 'Chewy', serif;
+	text-decoration: none;
+}
+
+.menu-container {
+	display: flex;
+	justify-content: center;
+	color: white;
+	background-color: dodgerblue;
+	height: 80px;
+	padding: 10px 0;
+}
+
+.menu {
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#gear {
+	width: 80px;
+	height: 80px;
+}
+
+.link-edit {
+	text-decoration: none;
+	color: white;
+}
+
+.cart {
+	margin-left: 20px;
+}
+
+.header-container {
+	display: flex;
+	color: #5995DA;
+	background-color: lightgrey;
+	justify-content: center;
+}
+
+.header {
+	width: 900px;
+	height: 185px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.logo img, .social img {
+	width: 200px;
+	height: 200px;
+}
+
+.grid-flex {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.description-box {
+	text-align: center;
+	flex-grow: 1;
+	background-color: darksalmon;
+	justify-content: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.display-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	height: 275px;
+	background-color: #D6E9FE;
+}
+
+.categories {
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 1px;
+	flex-grow: 1;
+	border-color: white;
+}
+
+
+
+#cat-display1 {
+	flex-grow: 1;
+	background-image: url('../img/cat_food.jpg');
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+#cat-display2 {
+	flex-grow: 1;
+	background-image: url('../img/cat_toys.jpg');
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+#cat-display3 {
+	flex-grow: 1;
+	background-image: url('../img/furniture_cat.jpg');
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+#cat-display4 {
+	flex-grow: 1;
+	background-image: url('../img/pusheen_apparel.jpg');
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+#change a{
+	text-decoration: none;
+	color: black;
+}

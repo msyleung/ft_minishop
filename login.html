@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>maobao</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/flex.css" />
+		<link rel="stylesheet" type="text/css" href="css/dropdown.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Chewy" />
+	</head>
+	<body>
+		<div class="menu-container">
+			<div class="menu">
+				<div id="nav-login"><a class="link-edit" href="login.html">Login | Sign up</a></div>
+				<div class="dropdown">
+					<button class="dropbtn">Categories</button>
+						<div class="dropdown-content">
+							<a href="cat_food.php">Cat food</a>
+							<a href="furniture.php">Furniture</a>
+							<a href="cat_toys.php">Toys</a>
+							<a href="utilities.php">Utilities</a>
+						</div>
+				</div>
+				<div class="cart"><a class="link-edit" href="cart.php">*cart</a></div>
+				<div class="dropdown">
+					<img class="setting-dropbtn" id="gear" src="img/gear.png" />
+						<div class="dropdown-content">
+							<a href="admin_stock.php">Admin Setting</a>
+							<a href="admin_user.php">Admin Setting2</a>
+							<a href="settings.html">Delete account</a>
+							<a href="logout.php">Log out</a>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-container">
+			<div class="header">
+				<div class="company">MaoBao Supplies</div>
+				<div class="logo"><a href="index.php"><img src="img/neko.png" /></a></div>
+				<div class="social"><img src="img/social-icons.svg" /></div>
+			</div>
+		</div>
+		<div class="login-container" id="login-text">Login in
+		<div class="login-image"><img id="login-img" src="img/login_cat.jpg" /></div>
+			<div class="login-box" id="small-text">
+				<form id="padding" action='login.php' method='post' accept-charset='UTF-8'>
+				Username: <br /><input id="input-bar" type="text" name="login" value="" />
+				<br />
+				Password: <br /><input id="input-bar" type="password" name="passwd" value="" /><br />
+				<a class="float-right-pad" href="#">forgot?</a>
+				<br /><input class="submit-btn" type="submit" name="submit" value="Sign in"/>
+				</form>
+			</div>
+				<br />No account? Create one <a href="create.html">here</a><br />
+			
+		</div>
+	</body>
+	<footer>
+		<p style="background-color:dodgerblue;color:white">&copy;&nbsp;sleung&nbsp;&amp;&nbsp;rmanese 2017</p>
+	</footer>
+</html>
