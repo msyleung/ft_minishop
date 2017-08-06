@@ -1,5 +1,7 @@
 # ft_minishop
-a mini-ecommerce website
+a mini-ecommerce website designed by the 42 curriculum as part of the PHP Piscine<br>
+is classified as a 'rush' project meaning that it must be completed over the weekend in the span of 48hours<br>
+this end result is the product of rmanese and sleung's work after those two days.
 
 ### things to do / feedback
 * the Categories on the index.php site should be clickable
