@@ -4,7 +4,8 @@ is classified as a 'rush' project meaning that it must be completed over the wee
 this end result is the product of rmanese and sleung's work after those two days.
 
 ### things to do / feedback
-```* the Categories on the index.php site should be clickable
+```
+* the Categories on the index.php site should be clickable
 * Admin Settings should not be visible for every user (even if it's not accessible)
 * add "stock" for each inventory (and "Out of Stock" message)
 * admin should be able to add stock to inventory
